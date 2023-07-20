@@ -446,6 +446,7 @@ a.nav_button {
      .main_download{
         flex-direction: column;
         align-items: center;
+        padding-bottom: 0;
      }
 
      .download_content h4{
@@ -484,4 +485,49 @@ a.nav_button {
         
     }
 
+    
+
+    .list_item{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .list_item h4 {
+        font-size: 14px;
+        
+    }
+
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer_item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 0;
+    }
+
+    .footer_item h4{
+        font-size:10px;
+    }
+
+
 }
+/* End responsive for large mobile */
+
+/* start responsive for Tablet */
+@media screen and (min-width: 425px) and (max-width:768px){
+    
+
+.online_game{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+
+}
+
+/* End responsive for Tablet */
