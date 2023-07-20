@@ -56,6 +56,7 @@ img{
     font-size: 17px;
     margin-left: 20px;
     color: #3C354F;
+    display: inline-block;
 
 }
 .nav_menubar .fa-brands{
@@ -283,7 +284,6 @@ a.nav_button {
 
 .music_gamer{
     display: flex;
-    /* grid-template-columns: repeat(5, 1fr); */
     align-items: center;
     flex-wrap: wrap;
    justify-content: center;
@@ -400,5 +400,88 @@ a.nav_button {
 /* start responsive for large mobile */
 
 @media screen and (max-width:425px){
-    
+    .main_navbar{
+        flex-direction: column;
+     }
+     .nav_menubar ul{
+        flex-direction: column;
+       align-items: center;
+     }
+
+     .nav_menubar ul li a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:0;
+     }
+
+     .main_bannar{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .game_man{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+     }
+
+     .game_img{
+        width: 100%;
+     }
+
+     .game_content{
+        width: 100%;
+        text-align: center;
+     }
+
+     .online_game{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .online_content h3{
+        font-size:25px;
+     }
+
+     .main_download{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .download_content h4{
+        text-align: center;
+     }
+
+     .download_content p{
+        text-align: center;
+        margin-bottom: 15px;
+     }
+
+     .download_img{
+        height: auto;
+        width: 65%;
+     }
+
+     .music_gamer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+     }
+
+     .music_content h4{
+        font-size: 10px;
+     }
+
+     .music_photo img{
+        width: 25px;
+        height: 27px;
+    }
+
+    .music_box{
+       
+        margin-bottom: 15px;
+        padding: 0;
+        
+        
+    }
+
 }
