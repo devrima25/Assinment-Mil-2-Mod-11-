@@ -205,5 +205,76 @@ a.nav_button {
     font-size: 13px;
     line-height: 17px;
 }
-/* End online-section style */
+/* End online section style */
 
+/*   start download section style  */
+.main_download {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 145px;
+}
+.download_img{
+    height: 400px;
+}
+.tallking {
+    width: 200px;
+    height: 230px;
+    position: relative;
+    top: -173px;
+    right: 100px;
+}
+.download_content h4 {
+    font-size: 29px;
+    text-align: right;
+}
+.download_content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download_content p {
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* End download section style */
+
+
+
+/* start music section style */
+
+.music_gamer{
+    display: flex;
+    /* grid-template-columns: repeat(5, 1fr); */
+    align-items: center;
+    flex-wrap: wrap;
+   justify-content: center;
+
+}
+.music_box{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 25px;
+    padding: 14px 7px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid white;
+ 
+}
+.music_box:hover{
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
+}
+
+.music_photo img{
+    width: 50px;
+    height: 55px;
+}
+
+
+/* End music section style */
