@@ -201,6 +201,9 @@ a.nav_button {
     color: white;
     font-size: 40px;
 }
+
+
+
 .online_img h4 {
     font-size: 13px;
     line-height: 17px;
@@ -218,7 +221,7 @@ a.nav_button {
    
  
 }
-.img_card:hover .hover_content{
+.img_card:hover .hover_effect{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,7 +341,7 @@ a.nav_button {
     justify-content: center;
     gap: 20px;
 }
-.icon{
+.icons{
     text-align: center;
 }
 .footer_item{
@@ -354,6 +357,7 @@ a.nav_button {
 }
 .footer_image h4 {
     font-size: 30px;
+    margin-top: -5px;
 }
 .list_item h4 {
     font-size: 17px;
@@ -361,8 +365,9 @@ a.nav_button {
     text-transform: capitalize;
     margin-bottom: 18px;
 }
-.icon {
+.icons i {
     padding: 10px;
+    font-size: 35px;
 }
 .footer_item{
     color:rgba(255, 255, 255, 0.60);
@@ -382,11 +387,18 @@ a.nav_button {
 
 }
 
-.icon .fa-facebook{
-    color:#046271;
-}
 
-.icon .fa-youtube{
+.icons .fa-facebook {
+    color: rgb(83 135 238);
+}
+.icons .fa-youtube{
     color:red;
 }
 /* End footer section style */
+
+
+/* start responsive for large mobile */
+
+@media screen and (max-width:425px){
+    
+}
